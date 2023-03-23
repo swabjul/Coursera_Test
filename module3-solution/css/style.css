@@ -1,0 +1,79 @@
+body {
+  font-family: cursive;
+}
+
+
+/* Header */
+#navbar {
+  border-radius: 0;
+}
+
+#navbar.navbar-default {
+  background: #999;
+  border: 1px solid #000;
+}
+#navbar.navbar-default .navbar-brand {
+  color: #000;
+}
+#navbar.navbar-default .navbar-collapse, #navbar.navbar-default .navbar-form {
+  border-color: black;
+}
+#navbar.navbar-default .navbar-toggle {
+  border-color: #000;
+  padding: 6px 4px;
+}
+#navbar.navbar-default .navbar-toggle .icon-bar {
+  background: #000;
+  height: 3px;
+  border-radius: 30px;
+}
+#navbar.navbar-default .navbar-toggle:focus, #navbar.navbar-default .navbar-toggle:hover {
+  background: #999;
+  border-color: #dcdcdc;
+}
+#navbar.navbar-default .navbar-toggle:focus .icon-bar, #navbar.navbar-default .navbar-toggle:hover .icon-bar{
+  background: #dcdcdc;
+}
+#navbar.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+#navbar.navbar-default .navbar-nav>li>a:focus, #navbar.navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+  background: #000;
+}
+#navbar .navbar-nav {
+  margin: 0 -15px;
+}
+#navbar .navbar-nav > li {
+  background: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+#navbar .navbar-nav > li::after {
+  content: "";
+  display: table;
+  width: 99.9%;
+  height: 1px;
+  border-top: 1px solid black;
+  margin: auto;
+}
+#navbar .navbar-nav > li:last-child::after {
+  display: none;
+}
+/* Main */
+main h1 {
+  margin-bottom: 40px;
+}
+main .column .inner {
+  background: #999;
+  padding: 10px;
+  font-weight: bold;
+}
+main .column .inner > h2 {
+  margin-top: 0;
+  text-align: center;
+}
+main .column > div {
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
